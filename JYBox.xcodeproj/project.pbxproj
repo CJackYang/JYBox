@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F67A6B4B1F9F7F3C008A4C5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F67A6B4A1F9F7F3C008A4C5F /* main.m */; };
+		F67A6B4E1F9F7F3C008A4C5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F67A6B4D1F9F7F3C008A4C5F /* AppDelegate.m */; };
+		F67A6B511F9F7F3C008A4C5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F67A6B501F9F7F3C008A4C5F /* ViewController.m */; };
+		F67A6B541F9F7F3C008A4C5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67A6B521F9F7F3C008A4C5F /* Main.storyboard */; };
+		F67A6B561F9F7F3C008A4C5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67A6B551F9F7F3C008A4C5F /* Assets.xcassets */; };
+		F67A6B591F9F7F3C008A4C5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67A6B571F9F7F3C008A4C5F /* LaunchScreen.storyboard */; };
+		F67A6B641F9F7F3C008A4C5F /* JYBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F67A6B631F9F7F3C008A4C5F /* JYBoxTests.m */; };
+		F67A6B6F1F9F7F3C008A4C5F /* JYBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F67A6B6E1F9F7F3C008A4C5F /* JYBoxUITests.m */; };
+		F67A6BB11F9F8089008A4C5F /* FirstDecorationSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F67A6B9E1F9F8089008A4C5F /* FirstDecorationSectionView.m */; };
+		F67A6BB21F9F8089008A4C5F /* FirstDecorationSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F67A6B9F1F9F8089008A4C5F /* FirstDecorationSectionView.xib */; };
+		F67A6BB31F9F8089008A4C5F /* FMHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = F67A6BA11F9F8089008A4C5F /* FMHeadView.m */; };
+		F67A6BB41F9F8089008A4C5F /* JYBigImgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F67A6BA31F9F8089008A4C5F /* JYBigImgCell.m */; };
+		F67A6BB51F9F8089008A4C5F /* JYCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F67A6BA51F9F8089008A4C5F /* JYCollectionViewCell.m */; };
+		F67A6BB61F9F8089008A4C5F /* JYForceTouchPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F67A6BA81F9F8089008A4C5F /* JYForceTouchPreviewController.m */; };
+		F67A6BB71F9F8089008A4C5F /* JYProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F67A6BAA1F9F8089008A4C5F /* JYProgressHUD.m */; };
+		F67A6BB81F9F8089008A4C5F /* JYShowBigImgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F67A6BAC1F9F8089008A4C5F /* JYShowBigImgViewController.m */; };
+		F67A6BBA1F9F8089008A4C5F /* TYDecorationSectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F67A6BB01F9F8089008A4C5F /* TYDecorationSectionLayout.m */; };
+		F67A6BBE1F9F80AC008A4C5F /* JYThumbVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F67A6BBC1F9F80AC008A4C5F /* JYThumbVC.m */; };
+		F67A6BBF1F9F80AC008A4C5F /* JYThumbVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F67A6BBD1F9F80AC008A4C5F /* JYThumbVC.xib */; };
+		F67A6BCA1F9F818D008A4C5F /* JYAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = F67A6BC31F9F818D008A4C5F /* JYAsset.m */; };
+		F67A6BCB1F9F818D008A4C5F /* PHAsset+JYEXT.m in Sources */ = {isa = PBXBuildFile; fileRef = F67A6BC51F9F818D008A4C5F /* PHAsset+JYEXT.m */; };
+		F67A6BCC1F9F818D008A4C5F /* PHFetchResult+JYEXT.m in Sources */ = {isa = PBXBuildFile; fileRef = F67A6BC71F9F818D008A4C5F /* PHFetchResult+JYEXT.m */; };
+		F67A6BCD1F9F818D008A4C5F /* PHPhotoLibrary+JYEXT.m in Sources */ = {isa = PBXBuildFile; fileRef = F67A6BC91F9F818D008A4C5F /* PHPhotoLibrary+JYEXT.m */; };
+		F67A6BD11F9F8676008A4C5F /* JBPhotoService.m in Sources */ = {isa = PBXBuildFile; fileRef = F67A6BD01F9F8676008A4C5F /* JBPhotoService.m */; };
+		F67A6BD91F9F94BA008A4C5F /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = F67A6BD41F9F94BA008A4C5F /* Base64.m */; };
+		F67A6BDA1F9F94BA008A4C5F /* CocoaSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = F67A6BD61F9F94BA008A4C5F /* CocoaSecurity.m */; };
+		F67A6BDB1F9F94BA008A4C5F /* FileHash.m in Sources */ = {isa = PBXBuildFile; fileRef = F67A6BD81F9F94BA008A4C5F /* FileHash.m */; };
+		F68936161FA72E5700274212 /* UIScrollView+IndicatorExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F68936121FA72E5700274212 /* UIScrollView+IndicatorExt.m */; };
+		F68936171FA72E5700274212 /* UIView+JY_ExtendTouchRect.m in Sources */ = {isa = PBXBuildFile; fileRef = F68936151FA72E5700274212 /* UIView+JY_ExtendTouchRect.m */; };
+		F68936201FA72F3800274212 /* date_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F689361A1FA72F3800274212 /* date_bg.png */; };
+		F68936211FA72F3800274212 /* date_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F689361B1FA72F3800274212 /* date_bg@2x.png */; };
+		F68936221FA72F3800274212 /* date_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F689361C1FA72F3800274212 /* date_bg@3x.png */; };
+		F68936231FA72F3800274212 /* handrail.png in Resources */ = {isa = PBXBuildFile; fileRef = F689361D1FA72F3800274212 /* handrail.png */; };
+		F68936241FA72F3800274212 /* handrail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F689361E1FA72F3800274212 /* handrail@2x.png */; };
+		F68936251FA72F3800274212 /* handrail@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F689361F1FA72F3800274212 /* handrail@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F67A6B601F9F7F3C008A4C5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F67A6B3E1F9F7F3C008A4C5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F67A6B451F9F7F3C008A4C5F;
+			remoteInfo = JYBox;
+		};
+		F67A6B6B1F9F7F3C008A4C5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F67A6B3E1F9F7F3C008A4C5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F67A6B451F9F7F3C008A4C5F;
+			remoteInfo = JYBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F67A6B461F9F7F3C008A4C5F /* JYBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F67A6B4A1F9F7F3C008A4C5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F67A6B4C1F9F7F3C008A4C5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F67A6B4D1F9F7F3C008A4C5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F67A6B4F1F9F7F3C008A4C5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F67A6B501F9F7F3C008A4C5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F67A6B531F9F7F3C008A4C5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F67A6B551F9F7F3C008A4C5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F67A6B581F9F7F3C008A4C5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F67A6B5A1F9F7F3C008A4C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F67A6B5F1F9F7F3C008A4C5F /* JYBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F67A6B631F9F7F3C008A4C5F /* JYBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYBoxTests.m; sourceTree = "<group>"; };
+		F67A6B651F9F7F3C008A4C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F67A6B6A1F9F7F3C008A4C5F /* JYBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F67A6B6E1F9F7F3C008A4C5F /* JYBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYBoxUITests.m; sourceTree = "<group>"; };
+		F67A6B701F9F7F3C008A4C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F67A6B9D1F9F8089008A4C5F /* FirstDecorationSectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstDecorationSectionView.h; sourceTree = "<group>"; };
+		F67A6B9E1F9F8089008A4C5F /* FirstDecorationSectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstDecorationSectionView.m; sourceTree = "<group>"; };
+		F67A6B9F1F9F8089008A4C5F /* FirstDecorationSectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstDecorationSectionView.xib; sourceTree = "<group>"; };
+		F67A6BA01F9F8089008A4C5F /* FMHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMHeadView.h; sourceTree = "<group>"; };
+		F67A6BA11F9F8089008A4C5F /* FMHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMHeadView.m; sourceTree = "<group>"; };
+		F67A6BA21F9F8089008A4C5F /* JYBigImgCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBigImgCell.h; sourceTree = "<group>"; };
+		F67A6BA31F9F8089008A4C5F /* JYBigImgCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBigImgCell.m; sourceTree = "<group>"; };
+		F67A6BA41F9F8089008A4C5F /* JYCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYCollectionViewCell.h; sourceTree = "<group>"; };
+		F67A6BA51F9F8089008A4C5F /* JYCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCollectionViewCell.m; sourceTree = "<group>"; };
+		F67A6BA61F9F8089008A4C5F /* JYConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYConst.h; sourceTree = "<group>"; };
+		F67A6BA71F9F8089008A4C5F /* JYForceTouchPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYForceTouchPreviewController.h; sourceTree = "<group>"; };
+		F67A6BA81F9F8089008A4C5F /* JYForceTouchPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYForceTouchPreviewController.m; sourceTree = "<group>"; };
+		F67A6BA91F9F8089008A4C5F /* JYProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYProgressHUD.h; sourceTree = "<group>"; };
+		F67A6BAA1F9F8089008A4C5F /* JYProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYProgressHUD.m; sourceTree = "<group>"; };
+		F67A6BAB1F9F8089008A4C5F /* JYShowBigImgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYShowBigImgViewController.h; sourceTree = "<group>"; };
+		F67A6BAC1F9F8089008A4C5F /* JYShowBigImgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYShowBigImgViewController.m; sourceTree = "<group>"; };
+		F67A6BAF1F9F8089008A4C5F /* TYDecorationSectionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDecorationSectionLayout.h; sourceTree = "<group>"; };
+		F67A6BB01F9F8089008A4C5F /* TYDecorationSectionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDecorationSectionLayout.m; sourceTree = "<group>"; };
+		F67A6BBB1F9F80AC008A4C5F /* JYThumbVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYThumbVC.h; sourceTree = "<group>"; };
+		F67A6BBC1F9F80AC008A4C5F /* JYThumbVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYThumbVC.m; sourceTree = "<group>"; };
+		F67A6BBD1F9F80AC008A4C5F /* JYThumbVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYThumbVC.xib; sourceTree = "<group>"; };
+		F67A6BC21F9F818D008A4C5F /* JYAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYAsset.h; sourceTree = "<group>"; };
+		F67A6BC31F9F818D008A4C5F /* JYAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYAsset.m; sourceTree = "<group>"; };
+		F67A6BC41F9F818D008A4C5F /* PHAsset+JYEXT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHAsset+JYEXT.h"; sourceTree = "<group>"; };
+		F67A6BC51F9F818D008A4C5F /* PHAsset+JYEXT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PHAsset+JYEXT.m"; sourceTree = "<group>"; };
+		F67A6BC61F9F818D008A4C5F /* PHFetchResult+JYEXT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHFetchResult+JYEXT.h"; sourceTree = "<group>"; };
+		F67A6BC71F9F818D008A4C5F /* PHFetchResult+JYEXT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PHFetchResult+JYEXT.m"; sourceTree = "<group>"; };
+		F67A6BC81F9F818D008A4C5F /* PHPhotoLibrary+JYEXT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHPhotoLibrary+JYEXT.h"; sourceTree = "<group>"; };
+		F67A6BC91F9F818D008A4C5F /* PHPhotoLibrary+JYEXT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PHPhotoLibrary+JYEXT.m"; sourceTree = "<group>"; };
+		F67A6BCF1F9F8676008A4C5F /* JBPhotoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBPhotoService.h; sourceTree = "<group>"; };
+		F67A6BD01F9F8676008A4C5F /* JBPhotoService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBPhotoService.m; sourceTree = "<group>"; };
+		F67A6BD31F9F94BA008A4C5F /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		F67A6BD41F9F94BA008A4C5F /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		F67A6BD51F9F94BA008A4C5F /* CocoaSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaSecurity.h; sourceTree = "<group>"; };
+		F67A6BD61F9F94BA008A4C5F /* CocoaSecurity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaSecurity.m; sourceTree = "<group>"; };
+		F67A6BD71F9F94BA008A4C5F /* FileHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHash.h; sourceTree = "<group>"; };
+		F67A6BD81F9F94BA008A4C5F /* FileHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHash.m; sourceTree = "<group>"; };
+		F68936121FA72E5700274212 /* UIScrollView+IndicatorExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+IndicatorExt.m"; sourceTree = "<group>"; };
+		F68936141FA72E5700274212 /* UIView+JY_ExtendTouchRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JY_ExtendTouchRect.h"; sourceTree = "<group>"; };
+		F68936151FA72E5700274212 /* UIView+JY_ExtendTouchRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JY_ExtendTouchRect.m"; sourceTree = "<group>"; };
+		F68936181FA72E8800274212 /* UIScrollView+IndicatorExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+IndicatorExt.h"; sourceTree = "<group>"; };
+		F689361A1FA72F3800274212 /* date_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_bg.png; sourceTree = "<group>"; };
+		F689361B1FA72F3800274212 /* date_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "date_bg@2x.png"; sourceTree = "<group>"; };
+		F689361C1FA72F3800274212 /* date_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "date_bg@3x.png"; sourceTree = "<group>"; };
+		F689361D1FA72F3800274212 /* handrail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handrail.png; sourceTree = "<group>"; };
+		F689361E1FA72F3800274212 /* handrail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "handrail@2x.png"; sourceTree = "<group>"; };
+		F689361F1FA72F3800274212 /* handrail@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "handrail@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F67A6B431F9F7F3C008A4C5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F67A6B5C1F9F7F3C008A4C5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F67A6B671F9F7F3C008A4C5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F67A6B3D1F9F7F3C008A4C5F = {
+			isa = PBXGroup;
+			children = (
+				F67A6B481F9F7F3C008A4C5F /* JYBox */,
+				F67A6B621F9F7F3C008A4C5F /* JYBoxTests */,
+				F67A6B6D1F9F7F3C008A4C5F /* JYBoxUITests */,
+				F67A6B471F9F7F3C008A4C5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F67A6B471F9F7F3C008A4C5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F67A6B461F9F7F3C008A4C5F /* JYBox.app */,
+				F67A6B5F1F9F7F3C008A4C5F /* JYBoxTests.xctest */,
+				F67A6B6A1F9F7F3C008A4C5F /* JYBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F67A6B481F9F7F3C008A4C5F /* JYBox */ = {
+			isa = PBXGroup;
+			children = (
+				F67A6BC01F9F8179008A4C5F /* Libruaries */,
+				F67A6B7D1F9F7FB5008A4C5F /* UI */,
+				F67A6BCE1F9F8593008A4C5F /* Services */,
+				F67A6B4C1F9F7F3C008A4C5F /* AppDelegate.h */,
+				F67A6B4D1F9F7F3C008A4C5F /* AppDelegate.m */,
+				F67A6B4F1F9F7F3C008A4C5F /* ViewController.h */,
+				F67A6B501F9F7F3C008A4C5F /* ViewController.m */,
+				F67A6B521F9F7F3C008A4C5F /* Main.storyboard */,
+				F67A6B551F9F7F3C008A4C5F /* Assets.xcassets */,
+				F67A6B571F9F7F3C008A4C5F /* LaunchScreen.storyboard */,
+				F67A6B5A1F9F7F3C008A4C5F /* Info.plist */,
+				F67A6B491F9F7F3C008A4C5F /* Supporting Files */,
+			);
+			path = JYBox;
+			sourceTree = "<group>";
+		};
+		F67A6B491F9F7F3C008A4C5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F67A6B4A1F9F7F3C008A4C5F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F67A6B621F9F7F3C008A4C5F /* JYBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				F67A6B631F9F7F3C008A4C5F /* JYBoxTests.m */,
+				F67A6B651F9F7F3C008A4C5F /* Info.plist */,
+			);
+			path = JYBoxTests;
+			sourceTree = "<group>";
+		};
+		F67A6B6D1F9F7F3C008A4C5F /* JYBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F67A6B6E1F9F7F3C008A4C5F /* JYBoxUITests.m */,
+				F67A6B701F9F7F3C008A4C5F /* Info.plist */,
+			);
+			path = JYBoxUITests;
+			sourceTree = "<group>";
+		};
+		F67A6B7D1F9F7FB5008A4C5F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F67A6B7E1F9F7FB5008A4C5F /* JYPhotos */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F67A6B7E1F9F7FB5008A4C5F /* JYPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				F67A6BBB1F9F80AC008A4C5F /* JYThumbVC.h */,
+				F67A6BBC1F9F80AC008A4C5F /* JYThumbVC.m */,
+				F67A6BBD1F9F80AC008A4C5F /* JYThumbVC.xib */,
+				F67A6B9D1F9F8089008A4C5F /* FirstDecorationSectionView.h */,
+				F67A6B9E1F9F8089008A4C5F /* FirstDecorationSectionView.m */,
+				F67A6B9F1F9F8089008A4C5F /* FirstDecorationSectionView.xib */,
+				F67A6BA01F9F8089008A4C5F /* FMHeadView.h */,
+				F67A6BA11F9F8089008A4C5F /* FMHeadView.m */,
+				F67A6BA21F9F8089008A4C5F /* JYBigImgCell.h */,
+				F67A6BA31F9F8089008A4C5F /* JYBigImgCell.m */,
+				F67A6BA41F9F8089008A4C5F /* JYCollectionViewCell.h */,
+				F67A6BA51F9F8089008A4C5F /* JYCollectionViewCell.m */,
+				F67A6BA61F9F8089008A4C5F /* JYConst.h */,
+				F67A6BA71F9F8089008A4C5F /* JYForceTouchPreviewController.h */,
+				F67A6BA81F9F8089008A4C5F /* JYForceTouchPreviewController.m */,
+				F67A6BA91F9F8089008A4C5F /* JYProgressHUD.h */,
+				F67A6BAA1F9F8089008A4C5F /* JYProgressHUD.m */,
+				F67A6BAB1F9F8089008A4C5F /* JYShowBigImgViewController.h */,
+				F67A6BAC1F9F8089008A4C5F /* JYShowBigImgViewController.m */,
+				F67A6BAF1F9F8089008A4C5F /* TYDecorationSectionLayout.h */,
+				F67A6BB01F9F8089008A4C5F /* TYDecorationSectionLayout.m */,
+			);
+			path = JYPhotos;
+			sourceTree = "<group>";
+		};
+		F67A6BC01F9F8179008A4C5F /* Libruaries */ = {
+			isa = PBXGroup;
+			children = (
+				F68936111FA72E5700274212 /* IndicatorExt */,
+				F67A6BD21F9F94BA008A4C5F /* crypto */,
+				F67A6BC11F9F818D008A4C5F /* JYPhotos */,
+			);
+			path = Libruaries;
+			sourceTree = "<group>";
+		};
+		F67A6BC11F9F818D008A4C5F /* JYPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				F67A6BC21F9F818D008A4C5F /* JYAsset.h */,
+				F67A6BC31F9F818D008A4C5F /* JYAsset.m */,
+				F67A6BC41F9F818D008A4C5F /* PHAsset+JYEXT.h */,
+				F67A6BC51F9F818D008A4C5F /* PHAsset+JYEXT.m */,
+				F67A6BC61F9F818D008A4C5F /* PHFetchResult+JYEXT.h */,
+				F67A6BC71F9F818D008A4C5F /* PHFetchResult+JYEXT.m */,
+				F67A6BC81F9F818D008A4C5F /* PHPhotoLibrary+JYEXT.h */,
+				F67A6BC91F9F818D008A4C5F /* PHPhotoLibrary+JYEXT.m */,
+			);
+			path = JYPhotos;
+			sourceTree = "<group>";
+		};
+		F67A6BCE1F9F8593008A4C5F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F67A6BCF1F9F8676008A4C5F /* JBPhotoService.h */,
+				F67A6BD01F9F8676008A4C5F /* JBPhotoService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F67A6BD21F9F94BA008A4C5F /* crypto */ = {
+			isa = PBXGroup;
+			children = (
+				F67A6BD31F9F94BA008A4C5F /* Base64.h */,
+				F67A6BD41F9F94BA008A4C5F /* Base64.m */,
+				F67A6BD51F9F94BA008A4C5F /* CocoaSecurity.h */,
+				F67A6BD61F9F94BA008A4C5F /* CocoaSecurity.m */,
+				F67A6BD71F9F94BA008A4C5F /* FileHash.h */,
+				F67A6BD81F9F94BA008A4C5F /* FileHash.m */,
+			);
+			name = crypto;
+			path = "加密";
+			sourceTree = "<group>";
+		};
+		F68936111FA72E5700274212 /* IndicatorExt */ = {
+			isa = PBXGroup;
+			children = (
+				F68936191FA72F3800274212 /* asset */,
+				F68936181FA72E8800274212 /* UIScrollView+IndicatorExt.h */,
+				F68936121FA72E5700274212 /* UIScrollView+IndicatorExt.m */,
+				F68936141FA72E5700274212 /* UIView+JY_ExtendTouchRect.h */,
+				F68936151FA72E5700274212 /* UIView+JY_ExtendTouchRect.m */,
+			);
+			path = IndicatorExt;
+			sourceTree = "<group>";
+		};
+		F68936191FA72F3800274212 /* asset */ = {
+			isa = PBXGroup;
+			children = (
+				F689361A1FA72F3800274212 /* date_bg.png */,
+				F689361B1FA72F3800274212 /* date_bg@2x.png */,
+				F689361C1FA72F3800274212 /* date_bg@3x.png */,
+				F689361D1FA72F3800274212 /* handrail.png */,
+				F689361E1FA72F3800274212 /* handrail@2x.png */,
+				F689361F1FA72F3800274212 /* handrail@3x.png */,
+			);
+			path = asset;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F67A6B451F9F7F3C008A4C5F /* JYBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F67A6B731F9F7F3C008A4C5F /* Build configuration list for PBXNativeTarget "JYBox" */;
+			buildPhases = (
+				F67A6B421F9F7F3C008A4C5F /* Sources */,
+				F67A6B431F9F7F3C008A4C5F /* Frameworks */,
+				F67A6B441F9F7F3C008A4C5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYBox;
+			productName = JYBox;
+			productReference = F67A6B461F9F7F3C008A4C5F /* JYBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F67A6B5E1F9F7F3C008A4C5F /* JYBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F67A6B761F9F7F3C008A4C5F /* Build configuration list for PBXNativeTarget "JYBoxTests" */;
+			buildPhases = (
+				F67A6B5B1F9F7F3C008A4C5F /* Sources */,
+				F67A6B5C1F9F7F3C008A4C5F /* Frameworks */,
+				F67A6B5D1F9F7F3C008A4C5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F67A6B611F9F7F3C008A4C5F /* PBXTargetDependency */,
+			);
+			name = JYBoxTests;
+			productName = JYBoxTests;
+			productReference = F67A6B5F1F9F7F3C008A4C5F /* JYBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F67A6B691F9F7F3C008A4C5F /* JYBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F67A6B791F9F7F3C008A4C5F /* Build configuration list for PBXNativeTarget "JYBoxUITests" */;
+			buildPhases = (
+				F67A6B661F9F7F3C008A4C5F /* Sources */,
+				F67A6B671F9F7F3C008A4C5F /* Frameworks */,
+				F67A6B681F9F7F3C008A4C5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F67A6B6C1F9F7F3C008A4C5F /* PBXTargetDependency */,
+			);
+			name = JYBoxUITests;
+			productName = JYBoxUITests;
+			productReference = F67A6B6A1F9F7F3C008A4C5F /* JYBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F67A6B3E1F9F7F3C008A4C5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = JackYang;
+				TargetAttributes = {
+					F67A6B451F9F7F3C008A4C5F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8SC32MU7TG;
+						ProvisioningStyle = Automatic;
+					};
+					F67A6B5E1F9F7F3C008A4C5F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8SC32MU7TG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F67A6B451F9F7F3C008A4C5F;
+					};
+					F67A6B691F9F7F3C008A4C5F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8SC32MU7TG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F67A6B451F9F7F3C008A4C5F;
+					};
+				};
+			};
+			buildConfigurationList = F67A6B411F9F7F3C008A4C5F /* Build configuration list for PBXProject "JYBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F67A6B3D1F9F7F3C008A4C5F;
+			productRefGroup = F67A6B471F9F7F3C008A4C5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F67A6B451F9F7F3C008A4C5F /* JYBox */,
+				F67A6B5E1F9F7F3C008A4C5F /* JYBoxTests */,
+				F67A6B691F9F7F3C008A4C5F /* JYBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F67A6B441F9F7F3C008A4C5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F67A6B591F9F7F3C008A4C5F /* LaunchScreen.storyboard in Resources */,
+				F67A6B561F9F7F3C008A4C5F /* Assets.xcassets in Resources */,
+				F68936231FA72F3800274212 /* handrail.png in Resources */,
+				F68936221FA72F3800274212 /* date_bg@3x.png in Resources */,
+				F68936201FA72F3800274212 /* date_bg.png in Resources */,
+				F68936241FA72F3800274212 /* handrail@2x.png in Resources */,
+				F68936211FA72F3800274212 /* date_bg@2x.png in Resources */,
+				F67A6B541F9F7F3C008A4C5F /* Main.storyboard in Resources */,
+				F67A6BB21F9F8089008A4C5F /* FirstDecorationSectionView.xib in Resources */,
+				F68936251FA72F3800274212 /* handrail@3x.png in Resources */,
+				F67A6BBF1F9F80AC008A4C5F /* JYThumbVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F67A6B5D1F9F7F3C008A4C5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F67A6B681F9F7F3C008A4C5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F67A6B421F9F7F3C008A4C5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F67A6BCC1F9F818D008A4C5F /* PHFetchResult+JYEXT.m in Sources */,
+				F67A6B511F9F7F3C008A4C5F /* ViewController.m in Sources */,
+				F67A6BDB1F9F94BA008A4C5F /* FileHash.m in Sources */,
+				F67A6BD11F9F8676008A4C5F /* JBPhotoService.m in Sources */,
+				F67A6B4E1F9F7F3C008A4C5F /* AppDelegate.m in Sources */,
+				F67A6B4B1F9F7F3C008A4C5F /* main.m in Sources */,
+				F67A6BCA1F9F818D008A4C5F /* JYAsset.m in Sources */,
+				F67A6BB41F9F8089008A4C5F /* JYBigImgCell.m in Sources */,
+				F68936161FA72E5700274212 /* UIScrollView+IndicatorExt.m in Sources */,
+				F68936171FA72E5700274212 /* UIView+JY_ExtendTouchRect.m in Sources */,
+				F67A6BCD1F9F818D008A4C5F /* PHPhotoLibrary+JYEXT.m in Sources */,
+				F67A6BCB1F9F818D008A4C5F /* PHAsset+JYEXT.m in Sources */,
+				F67A6BD91F9F94BA008A4C5F /* Base64.m in Sources */,
+				F67A6BBE1F9F80AC008A4C5F /* JYThumbVC.m in Sources */,
+				F67A6BB31F9F8089008A4C5F /* FMHeadView.m in Sources */,
+				F67A6BB71F9F8089008A4C5F /* JYProgressHUD.m in Sources */,
+				F67A6BBA1F9F8089008A4C5F /* TYDecorationSectionLayout.m in Sources */,
+				F67A6BB61F9F8089008A4C5F /* JYForceTouchPreviewController.m in Sources */,
+				F67A6BB81F9F8089008A4C5F /* JYShowBigImgViewController.m in Sources */,
+				F67A6BB51F9F8089008A4C5F /* JYCollectionViewCell.m in Sources */,
+				F67A6BB11F9F8089008A4C5F /* FirstDecorationSectionView.m in Sources */,
+				F67A6BDA1F9F94BA008A4C5F /* CocoaSecurity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F67A6B5B1F9F7F3C008A4C5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F67A6B641F9F7F3C008A4C5F /* JYBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F67A6B661F9F7F3C008A4C5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F67A6B6F1F9F7F3C008A4C5F /* JYBoxUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F67A6B611F9F7F3C008A4C5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F67A6B451F9F7F3C008A4C5F /* JYBox */;
+			targetProxy = F67A6B601F9F7F3C008A4C5F /* PBXContainerItemProxy */;
+		};
+		F67A6B6C1F9F7F3C008A4C5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F67A6B451F9F7F3C008A4C5F /* JYBox */;
+			targetProxy = F67A6B6B1F9F7F3C008A4C5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F67A6B521F9F7F3C008A4C5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F67A6B531F9F7F3C008A4C5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F67A6B571F9F7F3C008A4C5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F67A6B581F9F7F3C008A4C5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F67A6B711F9F7F3C008A4C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F67A6B721F9F7F3C008A4C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F67A6B741F9F7F3C008A4C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8SC32MU7TG;
+				INFOPLIST_FILE = JYBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisnuc.JYBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F67A6B751F9F7F3C008A4C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8SC32MU7TG;
+				INFOPLIST_FILE = JYBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisnuc.JYBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F67A6B771F9F7F3C008A4C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8SC32MU7TG;
+				INFOPLIST_FILE = JYBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisnuc.JYBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYBox.app/JYBox";
+			};
+			name = Debug;
+		};
+		F67A6B781F9F7F3C008A4C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8SC32MU7TG;
+				INFOPLIST_FILE = JYBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisnuc.JYBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYBox.app/JYBox";
+			};
+			name = Release;
+		};
+		F67A6B7A1F9F7F3C008A4C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8SC32MU7TG;
+				INFOPLIST_FILE = JYBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisnuc.JYBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYBox;
+			};
+			name = Debug;
+		};
+		F67A6B7B1F9F7F3C008A4C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8SC32MU7TG;
+				INFOPLIST_FILE = JYBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisnuc.JYBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F67A6B411F9F7F3C008A4C5F /* Build configuration list for PBXProject "JYBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F67A6B711F9F7F3C008A4C5F /* Debug */,
+				F67A6B721F9F7F3C008A4C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F67A6B731F9F7F3C008A4C5F /* Build configuration list for PBXNativeTarget "JYBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F67A6B741F9F7F3C008A4C5F /* Debug */,
+				F67A6B751F9F7F3C008A4C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F67A6B761F9F7F3C008A4C5F /* Build configuration list for PBXNativeTarget "JYBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F67A6B771F9F7F3C008A4C5F /* Debug */,
+				F67A6B781F9F7F3C008A4C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F67A6B791F9F7F3C008A4C5F /* Build configuration list for PBXNativeTarget "JYBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F67A6B7A1F9F7F3C008A4C5F /* Debug */,
+				F67A6B7B1F9F7F3C008A4C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F67A6B3E1F9F7F3C008A4C5F /* Project object */;
+}
